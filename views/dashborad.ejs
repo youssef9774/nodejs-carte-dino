@@ -1,0 +1,46 @@
+<div class="row mt-5">
+        <div class="col-md-5 m-auto">
+          <div class="card card-body">
+            <h3><a class="btn btn-secondary" href="./register/"><i  class="fa fa-plus"></i> Create new</a>  Dashborad </h3>
+                <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name </th>
+                            <th scope="col">Age</th>
+                            <th scope="col">nourriture</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            {{#each (dashborad)}}
+                          <tr>
+                            <th scope="row"> Dinosaure 1  </i></a></th>
+                            <td>{{this.name}}</td>
+                            <td>10000</td>
+                            <td>Avion</td>
+                            <td> <a><i class="fa fa-pencil fa-lg" aria-hidden="true">  </i></a></td>
+                            <td> <a><i class="fa fa-trash fa-lg" aria-hidden="true">  </i></a></td>
+                          </tr>
+                          {{/each}}
+                          <tr>
+                            <th scope="row">Dinosaure 2</th>
+                            <td>BB</td>
+                            <td>50000</td>
+                            <td>annimaux</td>
+                            <td> <a><i class="fa fa-pencil fa-lg" aria-hidden="true">  </i></a></td>
+                            <td> <a><i class="fa fa-trash fa-lg" aria-hidden="true">  </i></a></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Dinaosaure 3</th>
+                            <td>CC</td>
+                            <td>150000</td>
+                            <td>lion</td>
+                            <td><a><i class="fa fa-pencil fa-lg" aria-hidden="true"> </i></a></td>
+                            <td> <a><i class="fa fa-trash fa-lg" aria-hidden="true">  </i></a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <a href="/users/logout" class="btn btn-primary btn-block">Logout</a>
+</div>
+</div>
+</div>
